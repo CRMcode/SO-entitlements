@@ -56,7 +56,7 @@ namespace SO_entitlements
                     }
 
                     service.Create(entitlementEntity);
-
+                    //test commit develop branch
                     throw new Exception("Some test exception : null handled");
                 }
                 catch (Exception e) {
