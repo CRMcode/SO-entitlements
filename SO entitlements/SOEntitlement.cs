@@ -56,9 +56,12 @@ namespace SO_entitlements
                     }
 
                     service.Create(entitlementEntity);
-                    //test commit develop branch
-                    throw new Exception("Some test exception : null handled");
+                    
+                    //test coommit SK
+
+                    //throw new Exception("Some test exception : null handled");
                     //test commit
+
                 }
                 catch (Exception e) {
                     tracingService.Trace("Issue in SO entitlement plugin: {0}", e.ToString());
